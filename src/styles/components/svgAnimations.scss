@@ -1,0 +1,64 @@
+#napis #T {
+    animation: T 1s ease-in-out;
+}
+
+#napis .X {
+    animation: X 1s ease-in-out;
+}
+
+#napis #I {
+    animation: I 1s ease-in-out;
+}
+
+#napis .N {
+    animation: N 1s ease-in-out;
+}
+
+@keyframes N {
+    from {
+        opacity: 0;
+        transform: translate(-200px, 200px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes I {
+    from {
+        opacity: 0;
+        transform: translate(-200px, 200px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+
+@keyframes X {
+    from {
+        opacity: 0;
+        transform: translate(-200px, 200px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes T {
+    from {
+        opacity: 0;
+        transform: translate(200px, -200px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}

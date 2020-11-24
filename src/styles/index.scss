@@ -1,0 +1,33 @@
+@import './colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import './components/';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.button {
+    width: 75%;
+    background-color: $primary-color;
+    margin: auto;
+    padding: 10px;
+    border-radius: 25px;
+    color: #f1f1f1;
+}
+
+.header {
+    height: 100vh;
+}
+
+.primary {
+    color: $primary-color;
+}
+
+svg {
+    width: 85%;
+}
+

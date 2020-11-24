@@ -1,0 +1,37 @@
+@import '../colors.scss';
+
+$margins: 4.5vh;
+
+.documentation {
+    width: 100vw;
+
+    &__section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__header {
+        color: $primary-color;
+        font-size: $text-medium;
+        font-weight: 600;
+        text-align: center;
+    }   
+
+    &__links .button{
+        margin-top: $margins;
+        margin-bottom: $margins;
+        text-align: center;
+    }
+
+    .unactive {
+        background-color: gray;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        outline: none;
+    }
+}

@@ -1,0 +1,24 @@
+@import '../colors.scss';
+
+.about {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    &__header {
+        color: $primary-color;
+        font-size: $text-medium;
+        font-weight: 600;
+    }   
+
+    &__text {
+        margin-top: $mtext-margin;
+    }
+
+    &__section {
+        margin-bottom: $msection-margin;
+    }
+}
