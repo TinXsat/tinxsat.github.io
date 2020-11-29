@@ -17,6 +17,18 @@
     padding: 10px;
     border-radius: 25px;
     color: #f1f1f1;
+
+    @media (min-width: 575px) {
+        width: 60%;
+    }
+
+    @media (min-width: $tablet) {
+        width: 50%;
+    }
+    
+    @media (min-width: $pc) {
+        width: 35%;
+    }
 }
 
 .header {
@@ -24,10 +36,63 @@
 }
 
 .primary {
-    color: $primary-color;
+    color: $primary-color; 
+}
+
+.logo-text {
+    @media (min-width: $tablet) {
+        font-size: $text-medium;
+    }
+    
+    @media (min-width: $pc) {
+        font-size: $text-xlarge;
+    }
 }
 
 svg {
     width: 85%;
 }
+
+@media (min-width: 475px) {
+    .logo {
+        width: 50%;
+    }
+    
+}
+
+@media (min-width: $tablet) {
+    .logo {
+        width: 40%;
+    }
+
+    * {
+        font-size: $text-medium;
+    } 
+
+    .title {
+        font-size: $text-large; 
+    }
+
+    .cont {
+        width: 50%;
+    }
+}
+
+@media (min-width: $pc) {
+    .logo {
+        width: 25%;
+    }
+
+    .title {
+        font-size: $text-xlarge;
+    }
+
+    .cont {
+        width: 35%;
+    }
+}
+
+
+
+
 

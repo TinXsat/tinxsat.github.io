@@ -2,7 +2,7 @@ function Documentation() {
     return (
       <div className="documentation">
         <div className="documentation__text">
-          <div className="documentation__header">Dokumentacja</div>
+          <div className="documentation__header title">Dokumentacja</div>
         </div>
         <div className="documentation__links">
           <a href="https://github.com/tinxsat/"><div className="button">Github</div></a>

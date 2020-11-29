@@ -6,7 +6,7 @@ function Header() {
         <SVG className="logo"/>
       
       <div className="header__text">
-        Witaj, <br/>na stronie zespołu <br/><span className="header__text--primary">TinX!</span>
+        Witaj, <br/>na stronie zespołu <br/><span className="primary logo-text">TinX!</span>
       </div>
     </div>
   );

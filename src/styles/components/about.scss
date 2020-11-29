@@ -2,11 +2,14 @@
 
 .about {
     width: 100vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
 
     &__header {
         color: $primary-color;
@@ -20,5 +23,37 @@
 
     &__section {
         margin-bottom: $msection-margin;
+    }
+
+      .svg-anim {
+        display: none;
+    }
+}
+
+@media (min-width: $pc) {
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .svg-anim {
+            display: flex !important;
+            justify-content: center;
+            align-self: center;
+            width: 50%;
+
+            svg {
+                width: 80%;
+            }
+        }
+
+        .container {
+            width: 50%;
+        }
+
+        .cont {
+            width: 70%;
+        }
     }
 }

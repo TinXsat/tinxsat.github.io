@@ -25,4 +25,32 @@
         margin-bottom: $msection-margin;
     }
 
+    .svg-anim {
+        display: none;
+    }
+}
+
+
+@media (min-width: $pc) {
+
+
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .svg-anim {
+            display: flex !important;
+            justify-content: center;
+            align-self: center;
+
+            svg {
+                width: 75%;
+            }
+        }
+
+        .cont {
+            width: 70%;
+        }
+    }
 }

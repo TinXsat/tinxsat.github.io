@@ -15,8 +15,18 @@
         font-size: $text-medium;
         text-align: center;
         font-weight: 600;
+
         &--primary {
             color: $primary-color;
+        }
+
+        @media (min-width: 770px) {
+            font-size: $text-large;
+        }
+        
+
+        @media (min-width: 1440px) {
+            font-size: $text-xlarge;
         }
     }
 }

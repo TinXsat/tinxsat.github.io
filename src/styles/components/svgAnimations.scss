@@ -1,3 +1,5 @@
+//Logo 
+
 #napis #T {
     animation: T 1s ease-in-out;
 }
@@ -60,5 +62,86 @@
     to {
         opacity: 1;
         transform: translate(0, 0);
+    }
+}
+
+
+// Rocket 
+
+#Vector_70 {
+    display: none;
+}
+
+#Vector_71 {
+    display: none;
+}
+
+#Vector_72 {
+    animation: buttonColor 1s ease-in-out;
+}
+
+#Vector_73 {
+    animation: handShake 1s ease-in-out;
+}
+
+#Rocket {
+    transform: translateY(1500px);
+    animation: rocket 4s ease-in-out infinite;
+}
+
+@keyframes rocket {
+    100% {
+        transform: translateY(-1500px);
+    }
+}
+
+@keyframes buttonColor {
+    50% {
+        fill: red;
+    }
+}
+
+@keyframes handShake {
+    50% {
+        transform: translate(1px, 0.1%);
+    }
+}
+
+
+// Moon 
+
+#Moon_2 {
+    animation: moon 10s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#Car {
+    display: none;
+}
+
+#Spiral {
+    animation: spiral 20s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes moon {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes spiral {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(-360deg);
     }
 }
