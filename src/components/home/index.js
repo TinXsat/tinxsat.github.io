@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { ReactComponent as Logo } from '../../images/aboutus.svg';
-import { TimelineLite } from 'gsap';
+import gsap from 'gsap';
 
 function Home() {
   const wrapper = useRef(null);
@@ -12,7 +12,7 @@ function Home() {
     const hand = elements.getElementById('Vector_73');
     const button = elements.getElementById('Vector_72');
 
-    const tl = new TimelineLite({defaults: {ease: "power3.inOut"}});
+    const tl = gsap.timeline({defaults: {ease: "power3.inOut"}});
 
     tl.to(hand, {duration: 1, x: '-=6.5'})
     .to(button, {duration: 0.4, fill: 'red'}, '-=0.3')
