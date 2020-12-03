@@ -39,28 +39,9 @@
     color: $primary-color; 
 }
 
-.logo-text {
-    @media (min-width: $tablet) {
-        font-size: $text-medium;
-    }
-    
-    @media (min-width: $pc) {
-        font-size: $text-xlarge;
-    }
-}
 
-
-@media (min-width: 475px) {
-    .logo {
-        width: 50%;
-    }
-    
-}
 
 @media (min-width: $tablet) {
-    .logo {
-        width: 40%;
-    }
 
     * {
         font-size: $text-medium;
@@ -76,10 +57,6 @@
 }
 
 @media (min-width: $pc) {
-    .logo {
-        width: 25%;
-    }
-
     .title {
         font-size: $text-xlarge;
     }

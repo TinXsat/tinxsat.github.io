@@ -1,14 +1,27 @@
 @import '../colors.scss';
 
 .header {
+    position: relative;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
-    &__image {
-        width: 65%;
+    .arrow {
+        position: absolute;
+        height: 5vh;
+        left: 50%;
+        bottom: 2%;
+        transform: translateX(-50%);
+        animation: arrow 1s infinite;
+        fill: $primary-color;
+    }
+
+    @keyframes arrow {
+        50% {
+            bottom: 4%;
+        }
     }
 
     &__text {
@@ -16,8 +29,17 @@
         text-align: center;
         font-weight: 600;
 
-        &--primary {
+        .primary {
             color: $primary-color;
+
+            @media (min-width: 770px) {
+                font-size: $text-large !important;
+            }
+            
+
+            @media (min-width: 1440px) {
+                font-size: $text-xlarge !important;
+            }
         }
 
         @media (min-width: 770px) {

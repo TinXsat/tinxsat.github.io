@@ -3,6 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js" integrity="sha512-BLT+loVwmqdzlGIU9gxbSpRUwhs9I1uWkNkdAJEUM82s337R9T0pBk007MwaJjVTGhOHsovV4y6o/IwscSAglw==" crossorigin="anonymous"></script>
+    <script>
+      	jQuery(function($) {
+          $.scrollTo(0);
+          $('#arrow').click(function() { $.scrollTo($('#h'), 500); });
+        })
+    </script>
     <title>TinX</title>
   </head>
   <body>

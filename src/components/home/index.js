@@ -25,7 +25,7 @@ function Home() {
   })
 
   return (
-    <div className="home">
+    <div className="home" id="h">
       <div ref={wrapper} className="svg-anim">
           <Logo/>
       </div>

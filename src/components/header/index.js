@@ -1,22 +1,17 @@
-import { useEffect, useRef } from 'react';
-import { TimelineLite } from 'gsap';
 import {ReactComponent as SVG} from "../../images/home1.svg"
+import {ReactComponent as Arrow} from "../../images/arrow.svg"
 
 function Header() {
-  const wrapper = useRef(null);
-
-  useEffect(() => {
-    const elements = wrapper.current.children;
-
-    const tl = new TimelineLite({defaults: {ease: "power3.inOut"}});
-  })
-
   return (
-    <div ref={wrapper} className="header">
+    <div className="header">
+      <div className="container">
         <SVG className="logo"/>
-      <div className="header__text">
-        Witaj, <br/>na stronie zespołu <br/><span className="primary logo-text">TinX!</span>
+        <div className="header__text">
+          Witaj, <br/>na stronie zespołu <br/><span className="primary logo-text">TinX!</span>
+        </div>
       </div>
+
+      <a id="arrow" href="#h"><Arrow className="arrow" /></a>
     </div>
   );
 }
