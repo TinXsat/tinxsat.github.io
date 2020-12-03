@@ -45,6 +45,15 @@
 
             animation: slider 15s ease-out infinite;
 
+            @media (max-width: 516px){
+                width: 450%;
+
+                animation: sliderM 25s ease-out infinite;
+
+                .nettigo {
+                    transform: scale(0.7);
+                }
+            }
 
             @keyframes slider {
                 0% {
@@ -53,6 +62,17 @@
 
                 50% {
                     left: -50%;
+                }
+            }
+
+            
+            @keyframes sliderM {
+                0% {
+                    left: 0;
+                }
+
+                50% {
+                    left: -340%;
                 }
             }
 

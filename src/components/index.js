@@ -5,9 +5,16 @@ import Partnership from "./partnership";
 import Documentation from "./documentation";
 import Footer from "./footer";
 
+import logo from '../images/logo.png';
+
 function App() {
   return (
     <div className="App">
+        <link
+        rel="icon"
+        type="image/png"
+        href={logo}
+        />
         <Header />
         <Home />
         <About />

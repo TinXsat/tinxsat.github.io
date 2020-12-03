@@ -22,7 +22,7 @@ function Partnership() {
               <figure>
                 <BD />
                 <UR />
-                <N />
+                <N className="nettigo" />
                 <K />
               </figure>
             </div>
