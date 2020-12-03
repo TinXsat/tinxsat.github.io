@@ -22,8 +22,8 @@ function Partnership() {
               <figure>
                 <BD />
                 <UR />
-                <K />
                 <N />
+                <K />
               </figure>
             </div>
           </div>
