@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/nazwa/static/css/main.8b650e81.chunk.css",
+    "main.js": "/nazwa/static/js/main.a2afb7ee.chunk.js",
+    "main.js.map": "/nazwa/static/js/main.a2afb7ee.chunk.js.map",
+    "runtime-main.js": "/nazwa/static/js/runtime-main.6bdaaef0.js",
+    "runtime-main.js.map": "/nazwa/static/js/runtime-main.6bdaaef0.js.map",
+    "static/js/2.2204ea6a.chunk.js": "/nazwa/static/js/2.2204ea6a.chunk.js",
+    "static/js/2.2204ea6a.chunk.js.map": "/nazwa/static/js/2.2204ea6a.chunk.js.map",
+    "static/js/3.ec37af3b.chunk.js": "/nazwa/static/js/3.ec37af3b.chunk.js",
+    "static/js/3.ec37af3b.chunk.js.map": "/nazwa/static/js/3.ec37af3b.chunk.js.map",
+    "index.html": "/nazwa/index.html",
+    "static/css/main.8b650e81.chunk.css.map": "/nazwa/static/css/main.8b650e81.chunk.css.map",
+    "static/js/2.2204ea6a.chunk.js.LICENSE.txt": "/nazwa/static/js/2.2204ea6a.chunk.js.LICENSE.txt",
+    "static/media/aboutus.67fcc911.svg": "/nazwa/static/media/aboutus.67fcc911.svg",
+    "static/media/bluedot.9989f4d4.svg": "/nazwa/static/media/bluedot.9989f4d4.svg",
+    "static/media/home1.e0849953.svg": "/nazwa/static/media/home1.e0849953.svg",
+    "static/media/kosmonauta.26d6eaa9.svg": "/nazwa/static/media/kosmonauta.26d6eaa9.svg",
+    "static/media/moon.cdff5115.svg": "/nazwa/static/media/moon.cdff5115.svg",
+    "static/media/nettigo.dc774db7.svg": "/nazwa/static/media/nettigo.dc774db7.svg",
+    "static/media/ur.75fe4f82.svg": "/nazwa/static/media/ur.75fe4f82.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6bdaaef0.js",
+    "static/js/2.2204ea6a.chunk.js",
+    "static/css/main.8b650e81.chunk.css",
+    "static/js/main.a2afb7ee.chunk.js"
+  ]
+}
