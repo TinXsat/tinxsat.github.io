@@ -8,12 +8,12 @@ import Footer from "./footer";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Home />
-      <About />
-      <Partnership />
-      <Documentation />
-      <Footer />
+        <Header />
+        <Home />
+        <About />
+        <Partnership />
+        <Documentation />
+        <Footer />
     </div>
   );
 }

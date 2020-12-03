@@ -1,9 +1,32 @@
+import { useEffect, useRef } from 'react';
 import { ReactComponent as Logo } from '../../images/aboutus.svg';
+import { TimelineLite } from 'gsap';
 
 function Home() {
+  const wrapper = useRef(null);
+
+  useEffect(() => {
+    const [elements] = wrapper.current.children;
+
+    const rocket = elements.getElementById('Rocket');
+    const hand = elements.getElementById('Vector_73');
+    const button = elements.getElementById('Vector_72');
+
+    const tl = new TimelineLite({defaults: {ease: "power3.inOut"}});
+
+    tl.to(hand, {duration: 1, x: '-=6.5'})
+    .to(button, {duration: 0.4, fill: 'red'}, '-=0.3')
+    .to(button, {duration: 0.4, fill: '#61AFDA'})
+    .to(hand, {duration: 1, x: '+=6.5'}, '-=0.9')
+    .to(rocket, {duration: 2, y: '-=1000'})
+    .to(rocket, {duration: 3, y: '+=1000'})
+    .delay(2)
+    .repeat(-1)
+  })
+
   return (
     <div className="home">
-      <div className="svg-anim">
+      <div ref={wrapper} className="svg-anim">
           <Logo/>
       </div>
       <div className="container">

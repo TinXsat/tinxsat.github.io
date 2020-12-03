@@ -16,16 +16,6 @@
         font-size: $text-medium;
         font-weight: 600;
     }   
-
-    &__baners {
-        width: 100vw;
-        background-color: $primary-color;
-        color: white;
-        height: 30vh;
-        margin-top: $msection-margin;
-
-    }
-
     &__text {
         margin-top: $mtext-margin;
     }
@@ -36,5 +26,40 @@
 
     .auto {
         margin: auto;
+    }
+
+    
+    &__baners {
+        overflow: hidden;
+
+        figure {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: relative;
+            width: 150%;
+            height: 20vh;
+            left: 0;
+            margin: 0;
+            overflow: hidden;
+
+            animation: slider 15s ease-out infinite;
+
+
+            @keyframes slider {
+                0% {
+                    left: 0;
+                }
+
+                50% {
+                    left: -50%;
+                }
+            }
+
+            svg {
+                width: 20%;
+                float: left;
+            }
+        }
     }
 }

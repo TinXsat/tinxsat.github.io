@@ -1,3 +1,8 @@
+import {ReactComponent as BD} from '../../images/bluedot.svg'; 
+import {ReactComponent as UR} from '../../images/ur.svg'; 
+import {ReactComponent as K} from '../../images/kosmonauta.svg'; 
+import {ReactComponent as N} from '../../images/nettigo.svg'; 
+
 function Partnership() {
     return (
       <div className="partnership">
@@ -14,7 +19,12 @@ function Partnership() {
               </div>
             </div>
             <div className="partnership__baners">
-              Tu będą sponsorzy!
+              <figure>
+                <BD />
+                <UR />
+                <K />
+                <N />
+              </figure>
             </div>
           </div>
         </div>
