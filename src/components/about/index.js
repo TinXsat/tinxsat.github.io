@@ -8,7 +8,7 @@ function About() {
             <div className="about__section">
               <div className="about__header title">O Nas</div>
               <div className="about__text">
-              <span className="primary">TinX</span> to zespół składający się z czterech ucziów oraz opiekuna z Zespołu Szkół Elektronicznych w Rzeszowie.
+              <span className="primary">TinX</span> to zespół składający się z pięciu uczniów oraz opiekuna z Zespołu Szkół Elektronicznych w Rzeszowie.
               Drużyna została postawiona przed zadaniem wykonania <span className="primary">CanSata</span>, czyli małego satelity, który zostanie wystrzelony 
               w ramach konkursu organizowanego przez <span className="primary">Europejskie Biuro Edukacji Kosmicznej (ESERO).</span>
               </div>
