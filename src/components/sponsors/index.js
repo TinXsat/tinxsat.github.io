@@ -5,7 +5,7 @@ export default function Sponsors({ children, ...restProps }) {
     return <Container {...restProps}>{children}</Container>;
 }
 
-Sponsors.Image = function SponsorsImage({ children, size = '500px', ...restProps }) {
+Sponsors.Image = function SponsorsImage({ children, size = '400px', ...restProps }) {
     return <Image size={size }{...restProps}>{children}</Image>;
 };
 Sponsors.Text = function SponsorsText({ children, ...restProps }) {

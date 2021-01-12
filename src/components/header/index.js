@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Image, Text, BigText, TextWrapper, SectionContainer, Button } from './style/header';
+import { Container, Image, Text, BigText, TextWrapper, SectionContainer, Button, Background } from './style/header';
 
 export default function Header({ children, ...restProps }) {
     return <Container {...restProps}>{children}</Container>;
@@ -22,4 +22,7 @@ Header.SectionContainer = function HeaderSectionContainer({ children, ...restPro
 };
 Header.Button = function HeaderButton({ children, ...restProps }) {
     return <Button {...restProps}>{children}</Button>;
+};
+Header.Background = function HeaderBackground({ children, background = "10%", color = "#4DD2FF", ...restProps }) {
+    return <Background background={background} color={color} {...restProps}>{children}</Background>;
 };

@@ -14,8 +14,8 @@ Jumbutron.Text = function JumbutronText({ children, ...restProps }) {
 Jumbutron.BigText = function JumbutronBigText({ children, ...restProps }) {
     return <BigText {...restProps}>{children}</BigText>;
 };
-Jumbutron.TextWrapper = function JumbutronTextWrapper({ children, direction = 'row', ...restProps }) {
-    return <TextWrapper direction={direction}>{children}</TextWrapper>;
+Jumbutron.TextWrapper = function JumbutronTextWrapper({ children, direction = 'row', margin = "0px", ...restProps }) {
+    return <TextWrapper margin={margin} direction={direction} {...restProps}>{children}</TextWrapper>;
 };
 Jumbutron.InfoWrapper = function JumbutronInfoWrapper({ children, ...restProps }) {
     return <InfoWrapper {...restProps}>{children}</InfoWrapper>;

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tinxsat.github.io/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/tinxsat.github.io/static/js/main.2f2805b4.chunk.js",
-    "main.js.map": "/tinxsat.github.io/static/js/main.2f2805b4.chunk.js.map",
+    "main.js": "/tinxsat.github.io/static/js/main.01df24f9.chunk.js",
+    "main.js.map": "/tinxsat.github.io/static/js/main.01df24f9.chunk.js.map",
     "runtime-main.js": "/tinxsat.github.io/static/js/runtime-main.c4772407.js",
     "runtime-main.js.map": "/tinxsat.github.io/static/js/runtime-main.c4772407.js.map",
     "static/js/2.28109791.chunk.js": "/tinxsat.github.io/static/js/2.28109791.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.c4772407.js",
     "static/js/2.28109791.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.2f2805b4.chunk.js"
+    "static/js/main.01df24f9.chunk.js"
   ]
 }

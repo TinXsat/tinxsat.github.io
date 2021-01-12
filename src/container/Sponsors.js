@@ -12,19 +12,19 @@ export function SponsorsContainer({ children }) {
             <Sponsors.BigText>Sponsorzy</Sponsors.BigText>
             <Sponsors.GalleryWrapper>
                 <Sponsors.SponsorWrapper>
+                    <Sponsors.Image src={logo01} />
+                </Sponsors.SponsorWrapper>
+                <Sponsors.SponsorWrapper>
                     <Sponsors.Image src={bluedot} />
                 </Sponsors.SponsorWrapper>
                 <Sponsors.SponsorWrapper>
                     <Sponsors.Image src={kosmonauta} />
                 </Sponsors.SponsorWrapper>
                 <Sponsors.SponsorWrapper>
-                    <Sponsors.Image src={logo01} />
+                    <Sponsors.Image src={UR} margin={"-10px"} size={"550px"}/>
                 </Sponsors.SponsorWrapper>
                 <Sponsors.SponsorWrapper>
-                    <Sponsors.Image src={Nettigo} size={"700px"}/>
-                </Sponsors.SponsorWrapper>
-                <Sponsors.SponsorWrapper>
-                    <Sponsors.Image src={UR} size={"600px"}/>
+                    <Sponsors.Image src={Nettigo} margin={"-90px"} size={"600px"}/>
                 </Sponsors.SponsorWrapper>
             </Sponsors.GalleryWrapper>
         </Sponsors>
