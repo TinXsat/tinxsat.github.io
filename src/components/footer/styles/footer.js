@@ -1,7 +1,7 @@
     import styled from 'styled-components/macro';
 
     export const Container = styled.div`
-      height: 200px;
+      height: 70px;
       margin: 0 auto;
       display: flex;
       justify-content: center;
@@ -17,6 +17,5 @@
     `;
     export const Text = styled.div`
         position: absolute;
-        margin-top: 100px;
-      color: white;
+        color: white;
     `;

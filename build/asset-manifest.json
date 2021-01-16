@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tinxsat.github.io/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/tinxsat.github.io/static/js/main.01df24f9.chunk.js",
-    "main.js.map": "/tinxsat.github.io/static/js/main.01df24f9.chunk.js.map",
+    "main.js": "/tinxsat.github.io/static/js/main.a2edeead.chunk.js",
+    "main.js.map": "/tinxsat.github.io/static/js/main.a2edeead.chunk.js.map",
     "runtime-main.js": "/tinxsat.github.io/static/js/runtime-main.c4772407.js",
     "runtime-main.js.map": "/tinxsat.github.io/static/js/runtime-main.c4772407.js.map",
     "static/js/2.28109791.chunk.js": "/tinxsat.github.io/static/js/2.28109791.chunk.js",
@@ -12,21 +12,26 @@
     "index.html": "/tinxsat.github.io/index.html",
     "static/css/main.ea1455b2.chunk.css.map": "/tinxsat.github.io/static/css/main.ea1455b2.chunk.css.map",
     "static/js/2.28109791.chunk.js.LICENSE.txt": "/tinxsat.github.io/static/js/2.28109791.chunk.js.LICENSE.txt",
-    "static/media/Nettigo-logotyp.8f7cd35f.svg": "/tinxsat.github.io/static/media/Nettigo-logotyp.8f7cd35f.svg",
+    "static/media/Nettigo-logotyp.e97e38ce.png": "/tinxsat.github.io/static/media/Nettigo-logotyp.e97e38ce.png",
     "static/media/bluedot.6ce7e84d.png": "/tinxsat.github.io/static/media/bluedot.6ce7e84d.png",
     "static/media/brainstorming_session__monochromatic.f78b7581.svg": "/tinxsat.github.io/static/media/brainstorming_session__monochromatic.f78b7581.svg",
     "static/media/external-content.duckduckgo.com.7f311891.jpg": "/tinxsat.github.io/static/media/external-content.duckduckgo.com.7f311891.jpg",
+    "static/media/facebook.4370ac0b.png": "/tinxsat.github.io/static/media/facebook.4370ac0b.png",
     "static/media/fast_working.8e1cbcb5.svg": "/tinxsat.github.io/static/media/fast_working.8e1cbcb5.svg",
     "static/media/kosmonauta.9b321d6c.png": "/tinxsat.github.io/static/media/kosmonauta.9b321d6c.png",
     "static/media/logo-01.0c2dbb1d.png": "/tinxsat.github.io/static/media/logo-01.0c2dbb1d.png",
     "static/media/logo.61385d1d.png": "/tinxsat.github.io/static/media/logo.61385d1d.png",
+    "static/media/logoTypuXD.e2f45c2a.jpg": "/tinxsat.github.io/static/media/logoTypuXD.e2f45c2a.jpg",
     "static/media/online_team_meeting_.0666f6b4.svg": "/tinxsat.github.io/static/media/online_team_meeting_.0666f6b4.svg",
-    "static/media/startup.97441f9c.svg": "/tinxsat.github.io/static/media/startup.97441f9c.svg"
+    "static/media/startup.97441f9c.svg": "/tinxsat.github.io/static/media/startup.97441f9c.svg",
+    "static/media/undraw_At_work_re_qotl.843ce1c6.png": "/tinxsat.github.io/static/media/undraw_At_work_re_qotl.843ce1c6.png",
+    "static/media/undraw_Faq_re_31cw.5d3199a5.png": "/tinxsat.github.io/static/media/undraw_Faq_re_31cw.5d3199a5.png",
+    "static/media/undraw_Progress_overview_re_tvcl.6d4920e8.png": "/tinxsat.github.io/static/media/undraw_Progress_overview_re_tvcl.6d4920e8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c4772407.js",
     "static/js/2.28109791.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.01df24f9.chunk.js"
+    "static/js/main.a2edeead.chunk.js"
   ]
 }
