@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/tinxsat.github.io/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/tinxsat.github.io/static/js/main.a2edeead.chunk.js",
-    "main.js.map": "/tinxsat.github.io/static/js/main.a2edeead.chunk.js.map",
-    "runtime-main.js": "/tinxsat.github.io/static/js/runtime-main.c4772407.js",
-    "runtime-main.js.map": "/tinxsat.github.io/static/js/runtime-main.c4772407.js.map",
-    "static/js/2.28109791.chunk.js": "/tinxsat.github.io/static/js/2.28109791.chunk.js",
-    "static/js/2.28109791.chunk.js.map": "/tinxsat.github.io/static/js/2.28109791.chunk.js.map",
-    "static/js/3.96d550a9.chunk.js": "/tinxsat.github.io/static/js/3.96d550a9.chunk.js",
-    "static/js/3.96d550a9.chunk.js.map": "/tinxsat.github.io/static/js/3.96d550a9.chunk.js.map",
+    "main.js": "/tinxsat.github.io/static/js/main.b2e2bf3e.chunk.js",
+    "main.js.map": "/tinxsat.github.io/static/js/main.b2e2bf3e.chunk.js.map",
+    "runtime-main.js": "/tinxsat.github.io/static/js/runtime-main.cc015ff1.js",
+    "runtime-main.js.map": "/tinxsat.github.io/static/js/runtime-main.cc015ff1.js.map",
+    "static/js/2.8da13771.chunk.js": "/tinxsat.github.io/static/js/2.8da13771.chunk.js",
+    "static/js/2.8da13771.chunk.js.map": "/tinxsat.github.io/static/js/2.8da13771.chunk.js.map",
+    "static/js/3.558b70a0.chunk.js": "/tinxsat.github.io/static/js/3.558b70a0.chunk.js",
+    "static/js/3.558b70a0.chunk.js.map": "/tinxsat.github.io/static/js/3.558b70a0.chunk.js.map",
     "index.html": "/tinxsat.github.io/index.html",
     "static/css/main.ea1455b2.chunk.css.map": "/tinxsat.github.io/static/css/main.ea1455b2.chunk.css.map",
-    "static/js/2.28109791.chunk.js.LICENSE.txt": "/tinxsat.github.io/static/js/2.28109791.chunk.js.LICENSE.txt",
+    "static/js/2.8da13771.chunk.js.LICENSE.txt": "/tinxsat.github.io/static/js/2.8da13771.chunk.js.LICENSE.txt",
     "static/media/Nettigo-logotyp.e97e38ce.png": "/tinxsat.github.io/static/media/Nettigo-logotyp.e97e38ce.png",
     "static/media/bluedot.6ce7e84d.png": "/tinxsat.github.io/static/media/bluedot.6ce7e84d.png",
     "static/media/brainstorming_session__monochromatic.f78b7581.svg": "/tinxsat.github.io/static/media/brainstorming_session__monochromatic.f78b7581.svg",
@@ -29,9 +29,9 @@
     "static/media/undraw_Progress_overview_re_tvcl.6d4920e8.png": "/tinxsat.github.io/static/media/undraw_Progress_overview_re_tvcl.6d4920e8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c4772407.js",
-    "static/js/2.28109791.chunk.js",
+    "static/js/runtime-main.cc015ff1.js",
+    "static/js/2.8da13771.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.a2edeead.chunk.js"
+    "static/js/main.b2e2bf3e.chunk.js"
   ]
 }
